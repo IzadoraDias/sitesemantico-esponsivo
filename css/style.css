@@ -41,6 +41,11 @@ body {
 .autora__nome{
     margin-top: 10px;
 }
+
+.imagem{
+width: 100%
+}
+
 /** ARTIGO*/
 .artigo {
     color: #4A4A4A;
@@ -64,4 +69,37 @@ body {
 .rodape p {
     margin: 0;
     padding: 10px 0;
+}
+
+
+@media (max-width: 768px){
+
+    .conteiner > .autora{
+        display: none;
+       
+    }
+}
+
+@media (max-width: 600px){
+
+.col-2-de-3 > .artigo{
+}
+
+.artigo {
+    color: #4A4A4A;
+    margin-left: 30px;
+    width: 100%;
+}
+.artigo__titulo {
+    display: inline-block;
+    width: 100%;
+    margin-top: 0;
+    
+}
+.artigo p {
+    font-size: 25px;
+    color: #4A4A4A;
+}
+
+img
 }
